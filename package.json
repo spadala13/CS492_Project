@@ -1,5 +1,13 @@
 {
-  "dependencies": {
-    "vite": "^5.2.8"
-  }
+  "name": "cs492_project-main",
+  "version": "1.0.0",
+  "description": "testing",
+  "main": "/backend/server/index.js",
+  "scripts": {
+    "build": "npm run backend & npm run frontend",
+    "backend": "npm run dev --prefix back-end",
+    "frontend": "npm run dev --prefix front-end"
+  },
+  "author": "",
+  "license": "ISC"
 }
